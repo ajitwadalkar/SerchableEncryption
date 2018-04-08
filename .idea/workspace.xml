@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf7134df-d361-43f8-bd3c-a2e8e50dc880" name="Default" comment="" />
+    <list default="true" id="bf7134df-d361-43f8-bd3c-a2e8e50dc880" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/index.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/skaes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/skaes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/skprf.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/skprf.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/serchableencryption/ReadFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/serchableencryption/ReadFiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/serchableencryption/SE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/serchableencryption/SE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EncDecFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EncDecFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileReadWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileReadWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReadFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SE.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +27,8 @@
       <file leaf-file-name="ReadFiles.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ReadFiles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="52" />
+            <state relative-caret-position="270">
+              <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,8 +39,8 @@
       <file leaf-file-name="EncDecFunction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EncDecFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="-697">
+              <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -36,8 +48,8 @@
       <file leaf-file-name="SE.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SE.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="117" column="24" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
+            <state relative-caret-position="255">
+              <caret line="125" column="65" selection-start-line="125" selection-start-column="65" selection-end-line="125" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,8 +69,8 @@
       <file leaf-file-name="FileReadWrite.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FileReadWrite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+            <state relative-caret-position="360">
+              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -72,13 +84,22 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>read</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/FileReadWrite.java" />
-        <option value="$PROJECT_DIR$/src/EncDecFunction.java" />
         <option value="$PROJECT_DIR$/src/EncryptFiles.java" />
+        <option value="$PROJECT_DIR$/data/index.txt" />
+        <option value="$PROJECT_DIR$/src/EncDecFunction.java" />
         <option value="$PROJECT_DIR$/src/ReadFiles.java" />
+        <option value="$PROJECT_DIR$/src/FileReadWrite.java" />
         <option value="$PROJECT_DIR$/src/SE.java" />
       </list>
     </option>
@@ -96,6 +117,9 @@
     <option name="y" value="30" />
     <option name="width" value="1920" />
     <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -153,6 +177,11 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.SE">
+    <configuration name="FileReadWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileReadWrite" />
+      <module name="serchableencryption" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="ReadFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReadFiles" />
       <module name="serchableencryption" />
@@ -207,10 +236,12 @@
     <list>
       <item itemvalue="Application.ReadFiles" />
       <item itemvalue="Application.SE" />
+      <item itemvalue="Application.FileReadWrite" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SE" />
+        <item itemvalue="Application.FileReadWrite" />
         <item itemvalue="Application.ReadFiles" />
       </list>
     </recent_temporary>
@@ -225,12 +256,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523153789708</updated>
-      <workItem from="1523153791462" duration="8994000" />
+      <workItem from="1523153791462" duration="11677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8994000" />
+    <option name="totallyTimeSpent" value="11677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
@@ -245,12 +276,12 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3278867" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32824427" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17609392" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17609392" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info id="Learn" />
@@ -299,10 +330,20 @@
     <entry file="file://$PROJECT_DIR$/data/skaes.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileReadWrite.java">
+    <entry file="file://$PROJECT_DIR$/data/index.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReadFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -313,27 +354,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReadFiles.java">
+    <entry file="file://$PROJECT_DIR$/src/FileReadWrite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EncDecFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="-697">
+          <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SE.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="117" column="24" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
+        <state relative-caret-position="255">
+          <caret line="125" column="65" selection-start-line="125" selection-start-column="65" selection-end-line="125" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

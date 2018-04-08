@@ -22,7 +22,7 @@ class EncDecFunction {
 
     //to get the key from text file
     private static SecretKeySpec getSecretKey(String fileName){
-        String encodedKey = FileReadWrite.ReadFile(fileName);
+        String encodedKey = FileReadWrite.ReadFile(fileName).get(0);
         byte[] bytes = DatatypeConverter.parseHexBinary(encodedKey);
         return new SecretKeySpec(bytes, "AES");
     }

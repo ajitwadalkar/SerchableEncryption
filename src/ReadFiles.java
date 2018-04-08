@@ -15,7 +15,7 @@ public class ReadFiles {
 
         if (listOfFiles != null) {
             for (File fnm : listOfFiles) {
-                String[] fileData = FileReadWrite.ReadFile("files/" + fnm.getName()).split(" ");
+                String[] fileData = FileReadWrite.ReadFile("files/" + fnm.getName()).get(0).split(" ");
                 for (String keywords : fileData) {
                     if (fileIndex.containsKey(keywords)) {
                         fileIndex.get(keywords).add(fnm.getName());

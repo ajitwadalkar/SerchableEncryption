@@ -7,35 +7,33 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 class FileReadWrite {
 
     private static String folderPath;
 
-    static String ReadFile(String fileName)
+
+    static  List<String>  ReadFile(String fileName)
     {
         folderPath = SE.folderPath;
         String filePath = folderPath+fileName;
-        StringBuilder ReadData = new StringBuilder();
+        List<String> readData=null;
 
         try (Stream<String> stream = Files.lines( Paths.get(filePath), StandardCharsets.UTF_8))
         {
-                stream.forEach(ReadData::append);
+            readData = stream.collect(Collectors.toList());
         }
         catch (IOException e)
         {
             System.out.println("File does not exist.");
         }
-        if(ReadData.toString().length()==0)
-        {
-            return fileName + " is Empty or Does not exist.";
-        }
-        else {
-            return ReadData.toString();
-        }
+        return readData;
 
     }
+
     static void WriteFile(String fileName, String DataToWrite)
     {
         folderPath = SE.folderPath;

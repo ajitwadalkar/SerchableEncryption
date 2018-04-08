@@ -1,3 +1,4 @@
+import javax.xml.bind.DatatypeConverter;
 import java.io.File;
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -113,10 +114,16 @@ public class SE {
                 String aesKey, prfKey;
                 HashMap<String, ArrayList<String>> plainIndex = new HashMap<>();
                 plainIndex = ReadFiles.readFiles();
+                String dataToWrite="";
                 for (String keyWords:plainIndex.keySet())
                 {
-                        
+                    String  hashedIndex = DatatypeConverter.printHexBinary(EncDecFunction.encryptECB(keyWords,"skprf.txt"));
+                    for (int i = 0; i < plainIndex.get(keyWords).size(); i++) {
+                        hashedIndex = hashedIndex + " " + plainIndex.get(keyWords).get(i).replace("f","c");
+                    }
+                    dataToWrite = dataToWrite + hashedIndex+"\n";
                 }
+                FileReadWrite.WriteFile("index.txt",dataToWrite);
                 endTime = System.nanoTime();
                 duration = (endTime - startTime);
                 double seconds = (double) duration / 1000000000.0;
