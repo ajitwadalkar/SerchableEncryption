@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf7134df-d361-43f8-bd3c-a2e8e50dc880" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Indexing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchToken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/serchableencryption/EncryptFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/serchableencryption/EncryptFiles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/serchableencryption/FileReadWrite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/serchableencryption/FileReadWrite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/token.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/token.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/serchableencryption/SE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/serchableencryption/SE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EncryptFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EncryptFiles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FileReadWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileReadWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Indexing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Indexing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReadFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadFiles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SE.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,8 +24,8 @@
       <file leaf-file-name="ReadFiles.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ReadFiles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="13" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="135">
+              <caret line="9" column="71" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,19 +36,32 @@
       <file leaf-file-name="EncDecFunction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EncDecFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-652">
+            <state relative-caret-position="-337">
               <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SE.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SE.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SE.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="112" column="40" lean-forward="true" selection-start-line="112" selection-start-column="40" selection-end-line="112" selection-end-column="40" />
+            <state relative-caret-position="255">
+              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchToken.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SearchToken.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#501#510#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,8 +70,8 @@
       <file leaf-file-name="Indexing.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Indexing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+            <state relative-caret-position="405">
+              <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,8 +91,11 @@
       <file leaf-file-name="FileReadWrite.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FileReadWrite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="353">
+              <caret line="38" column="62" lean-forward="true" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
+              <folding>
+                <element signature="e#624#633#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,12 +122,13 @@
       <list>
         <option value="$PROJECT_DIR$/data/index.txt" />
         <option value="$PROJECT_DIR$/src/EncDecFunction.java" />
-        <option value="$PROJECT_DIR$/src/ReadFiles.java" />
         <option value="$PROJECT_DIR$/src/EncryptFiles.java" />
-        <option value="$PROJECT_DIR$/src/FileReadWrite.java" />
         <option value="$PROJECT_DIR$/src/GenerateIndex.java" />
+        <option value="$PROJECT_DIR$/src/ReadFiles.java" />
         <option value="$PROJECT_DIR$/src/Indexing.java" />
         <option value="$PROJECT_DIR$/src/SE.java" />
+        <option value="$PROJECT_DIR$/src/FileReadWrite.java" />
+        <option value="$PROJECT_DIR$/src/SearchToken.java" />
       </list>
     </option>
   </component>
@@ -150,18 +166,6 @@
               <item name="serchableencryption" type="b2602c69:ProjectViewProjectNode" />
               <item name="serchableencryption" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serchableencryption" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serchableencryption" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="ciphertextfiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serchableencryption" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serchableencryption" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serchableencryption" type="b2602c69:ProjectViewProjectNode" />
@@ -215,6 +219,11 @@
       <module name="serchableencryption" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="SearchToken" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SearchToken" />
+      <module name="serchableencryption" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -261,10 +270,12 @@
       <item itemvalue="Application.SE" />
       <item itemvalue="Application.FileReadWrite" />
       <item itemvalue="Application.EncryptFiles" />
+      <item itemvalue="Application.SearchToken" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SE" />
+        <item itemvalue="Application.SearchToken" />
         <item itemvalue="Application.EncryptFiles" />
         <item itemvalue="Application.FileReadWrite" />
         <item itemvalue="Application.ReadFiles" />
@@ -281,12 +292,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523153789708</updated>
-      <workItem from="1523153791462" duration="13594000" />
+      <workItem from="1523153791462" duration="16699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13594000" />
+    <option name="totallyTimeSpent" value="16699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
@@ -301,12 +312,12 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32824427" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32824427" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17609392" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17609392" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info id="Learn" />
@@ -343,9 +354,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/token.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/nullskaes.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -354,13 +362,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/skaes.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/index.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/c1.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -372,24 +373,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileReadWrite.java">
+    <entry file="file://$PROJECT_DIR$/data/index.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EncDecFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-652">
-          <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/data/token.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ReadFiles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="13" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="9" column="71" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -398,20 +395,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Indexing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        <state relative-caret-position="405">
+          <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/EncDecFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-337">
+          <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SE.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="112" column="40" lean-forward="true" selection-start-line="112" selection-start-column="40" selection-end-line="112" selection-end-column="40" />
+        <state relative-caret-position="255">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FileReadWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="38" column="62" lean-forward="true" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
+          <folding>
+            <element signature="e#624#633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SearchToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#501#510#0" expanded="true" />
           </folding>
         </state>
       </provider>

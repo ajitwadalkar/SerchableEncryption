@@ -6,16 +6,16 @@ import java.util.HashMap;
 public class ReadFiles {
     static String folderPath;
 
-    public static HashMap<String, ArrayList<String>> readFiles(){
+    public static HashMap<String, ArrayList<String>> readFiles(String folderName){
         HashMap<String, ArrayList<String>> fileIndex = new HashMap<>();
 
-        String filesPath = SE.folderPath + "files/";
+        String filesPath = SE.folderPath + folderName;
         File folder = new File(filesPath);
         File[] listOfFiles = folder.listFiles();
 
         if (listOfFiles != null) {
             for (File fnm : listOfFiles) {
-                String[] fileData = FileReadWrite.ReadFile("files/" + fnm.getName()).get(0).split(" ");
+                String[] fileData = FileReadWrite.ReadFile(folderName + fnm.getName()).get(0).split(" ");
                 for (String keywords : fileData) {
                     if (fileIndex.containsKey(keywords)) {
                         fileIndex.get(keywords).add(fnm.getName());

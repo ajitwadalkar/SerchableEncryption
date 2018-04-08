@@ -1,3 +1,4 @@
+import javax.xml.bind.DatatypeConverter;
 import java.io.File;
 import java.util.Scanner;
 
@@ -31,7 +32,10 @@ public class SE {
             //Choosing the function
             System.out.println("\nFollowing are the functionalities in the code, choose anyone:\n" +
                     "1.Generate Keys\n" +
-                    "2.Generate Inverted Index and Encrypt Files\n" +
+                    "2.Print Inverted Index\n" +
+                    "3.Generate Encrypted Inverted Index and Encrypt Files\n" +
+                    "4.Token Generation\n" +
+                    "5.Search token\n" +
                     "6.Exit\n" +
                     "Please choose the value in between 1,2,3,4,5 or 6 ");
 
@@ -101,32 +105,58 @@ public class SE {
                 System.out.println("Cannot generate keys with given lambda value.");
             }
         }
-        //Generate index and encrypt Files
+        //Printing plaintext Inverted Index
         if (option == 2) {
             System.out.println();
             printLine();
-            System.out.println("Selected Function is Generate Inverted Index and Encrypt Files");
+            System.out.println("Invertedindex for plaintext:");
+            Indexing.printPlainIndex();
+            printLine();
+        }
+
+        //Generate index and encrypt Files
+        if (option == 3) {
+            System.out.println();
+            printLine();
+            System.out.println("Selected Function is Generate Encrypted Inverted Index and Encrypt Files");
                 startTime = System.nanoTime();
                 Indexing.GenerateEncryptedIndex();
-                System.out.println("Generated Inverted Index is:");
-                Indexing.printEncIndex();
                 EncryptFiles.EncFiles();
                 endTime = System.nanoTime();
                 duration = (endTime - startTime);
                 double seconds = (double) duration / 1000000000.0;
                 System.out.println("The function took " + seconds + " seconds to execute.");
-                printLine();
+                System.out.println("Generated Inverted Index is:");
+                Indexing.printEncIndex();
+
+            printLine();
 
         }
-/*
+
+        //token generation function
         //Some function
-        if (option == 3) {
+        if (option == 4) {
             System.out.println();
             printLine();
-            System.out.println("Selected Function is Generate Inverted Index and Encrypt Files");
+            System.out.println("Selected Function is Token Generation Function.\nPlease enter word you want to search.");
+            String tokenWord = scanner.next();
             startTime = System.nanoTime();
-            String aesKey, prfKey;
+            String  hashedToken = DatatypeConverter.printHexBinary(EncDecFunction.encryptECB(tokenWord,"skprf.txt"));
+            FileReadWrite.WriteFile("token.txt",hashedToken);
+            endTime = System.nanoTime();
+            duration = (endTime - startTime);
+            double seconds = (double) duration / 1000000000.0;
+            System.out.println("The function took " + seconds + " seconds to execute.");
+            printLine();
+        }
 
+        //Searchfunction
+        if (option == 5) {
+            System.out.println();
+            printLine();
+            System.out.println("Selected Function is Search Token");
+            startTime = System.nanoTime();
+            SearchToken.search();
             endTime = System.nanoTime();
             duration = (endTime - startTime);
             double seconds = (double) duration / 1000000000.0;
@@ -134,12 +164,11 @@ public class SE {
             printLine();
 
         }
-*/
+
         //Exit the Program
         else if (option == 6) {
-            /*System.out.println("Terminating the program.");
-            System.exit(0);*/
-            EncryptFiles.EncFiles();
+            System.out.println("Terminating the program.");
+            System.exit(0);
         }
     }
 }

@@ -6,7 +6,7 @@ import java.util.List;
 public class Indexing {
     public static void GenerateEncryptedIndex() throws Exception {
         HashMap<String, ArrayList<String>> plainIndex = new HashMap<>();
-        plainIndex = ReadFiles.readFiles();
+        plainIndex = ReadFiles.readFiles("files/");
         String dataToWrite="";
         for (String keyWords:plainIndex.keySet())
         {
@@ -25,7 +25,7 @@ public class Indexing {
 
     public static void printPlainIndex(){
         HashMap<String, ArrayList<String>> plainIndex = new HashMap<>();
-        plainIndex = ReadFiles.readFiles();
+        plainIndex = ReadFiles.readFiles("files/");
         for (String hashKey : plainIndex.keySet()) {
             System.out.print(hashKey);
             for (int i = 0; i < plainIndex.get(hashKey).size(); i++) {
