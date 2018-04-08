@@ -1,8 +1,4 @@
-import javax.xml.bind.DatatypeConverter;
 import java.io.File;
-import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Scanner;
 
 public class SE {
@@ -111,19 +107,10 @@ public class SE {
             printLine();
             System.out.println("Selected Function is Generate Inverted Index and Encrypt Files");
                 startTime = System.nanoTime();
-                String aesKey, prfKey;
-                HashMap<String, ArrayList<String>> plainIndex = new HashMap<>();
-                plainIndex = ReadFiles.readFiles();
-                String dataToWrite="";
-                for (String keyWords:plainIndex.keySet())
-                {
-                    String  hashedIndex = DatatypeConverter.printHexBinary(EncDecFunction.encryptECB(keyWords,"skprf.txt"));
-                    for (int i = 0; i < plainIndex.get(keyWords).size(); i++) {
-                        hashedIndex = hashedIndex + " " + plainIndex.get(keyWords).get(i).replace("f","c");
-                    }
-                    dataToWrite = dataToWrite + hashedIndex+"\n";
-                }
-                FileReadWrite.WriteFile("index.txt",dataToWrite);
+                Indexing.GenerateEncryptedIndex();
+                System.out.println("Generated Inverted Index is:");
+                Indexing.printEncIndex();
+                EncryptFiles.EncFiles();
                 endTime = System.nanoTime();
                 duration = (endTime - startTime);
                 double seconds = (double) duration / 1000000000.0;
@@ -150,8 +137,9 @@ public class SE {
 */
         //Exit the Program
         else if (option == 6) {
-            System.out.println("Terminating the program.");
-            System.exit(0);
+            /*System.out.println("Terminating the program.");
+            System.exit(0);*/
+            EncryptFiles.EncFiles();
         }
     }
 }

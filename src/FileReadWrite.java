@@ -20,6 +20,7 @@ class FileReadWrite {
     {
         folderPath = SE.folderPath;
         String filePath = folderPath+fileName;
+     //   System.out.println(filePath);
         List<String> readData=null;
 
         try (Stream<String> stream = Files.lines( Paths.get(filePath), StandardCharsets.UTF_8))
@@ -38,6 +39,7 @@ class FileReadWrite {
     {
         folderPath = SE.folderPath;
         String filePath = folderPath+fileName;
+     //   System.out.println(filePath);
         try
         {
             Path file = Paths.get(filePath);
