@@ -142,6 +142,7 @@ public class SE {
             String tokenWord = scanner.next();
             startTime = System.nanoTime();
             String  hashedToken = DatatypeConverter.printHexBinary(EncDecFunction.encryptECB(tokenWord,"skprf.txt"));
+            System.out.println("Saved token is: "+hashedToken);
             FileReadWrite.WriteFile("token.txt",hashedToken);
             endTime = System.nanoTime();
             duration = (endTime - startTime);

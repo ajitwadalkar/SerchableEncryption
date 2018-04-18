@@ -31,5 +31,8 @@ public class SearchToken {
                 System.out.println(fileName+" "+decryptedText);
             }
         }
+        else{
+            System.out.println("No match found.");
+        }
     }
 }
